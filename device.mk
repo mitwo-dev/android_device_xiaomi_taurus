@@ -54,8 +54,22 @@ PRODUCT_COPY_FILES += \
 
 ifneq ($(BUILD_KERNEL),true)
 PRODUCT_COPY_FILES += \
-    device/xiaomi/taurus/kernel/wlan.ko:system/lib/modules/wlan.ko \
-    device/xiaomi/taurus/kernel/exfat.ko:system/lib/modules/exfat.ko
+    device/xiaomi/taurus/kernel/adsprpc.ko:system/lib/modules/adsprpc.ko \
+    device/xiaomi/taurus/kernel/bluetooth-power.ko:system/lib/modules/bluetooth-power.ko \
+    device/xiaomi/taurus/kernel/eeprom_93cx6.ko:system/lib/modules/eeprom_93cx6.ko \
+    device/xiaomi/taurus/kernel/evbug.ko:system/lib/modules/evbug.ko \
+    device/xiaomi/taurus/kernel/exfat.ko:system/lib/modules/exfat.ko \
+    device/xiaomi/taurus/kernel/gspca_main.ko:system/lib/modules/gspca_main.ko \
+    device/xiaomi/taurus/kernel/ks8851.ko:system/lib/modules/ks8851.ko \
+    device/xiaomi/taurus/kernel/lcd.ko:system/lib/modules/lcd.ko \
+    device/xiaomi/taurus/kernel/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko \
+    device/xiaomi/taurus/kernel/mmc_test.ko:system/lib/modules/mmc_test.ko \
+    device/xiaomi/taurus/kernel/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
+    device/xiaomi/taurus/kernel/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
+    device/xiaomi/taurus/kernel/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
+    device/xiaomi/taurus/kernel/spidev.ko:system/lib/modules/spidev.ko \
+    device/xiaomi/taurus/kernel/test-iosched.ko:system/lib/modules/test-iosched.ko \
+    device/xiaomi/taurus/kernel/wlan.ko:system/lib/modules/wlan.ko
 endif
 
 PRODUCT_COPY_FILES += \
