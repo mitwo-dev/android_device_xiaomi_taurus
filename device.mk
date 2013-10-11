@@ -68,7 +68,6 @@ PRODUCT_COPY_FILES += \
     device/xiaomi/taurus/kernel/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
     device/xiaomi/taurus/kernel/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
     device/xiaomi/taurus/kernel/spidev.ko:system/lib/modules/spidev.ko \
-    device/xiaomi/taurus/kernel/test-iosched.ko:system/lib/modules/test-iosched.ko \
     device/xiaomi/taurus/kernel/wlan.ko:system/lib/modules/wlan.ko
 endif
 
