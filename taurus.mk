@@ -33,7 +33,7 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 ## VoiceProc modules                                                                                              
 PRODUCT_PACKAGES += wpa_supplicant_overlay.conf
 PRODUCT_PACKAGES += p2p_supplicant_overlay.conf
-PRODUCT_PACKAGES += xm_app_store.apk
+PRODUCT_PACKAGES += MiMarket.apk
 
 # GMS
 PRODUCT_PROPERTY_OVERRIDES += \
