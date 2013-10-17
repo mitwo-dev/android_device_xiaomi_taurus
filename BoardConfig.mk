@@ -75,6 +75,10 @@ WIFI_DRIVER_FW_PATH_AP           := "ap"
 
 BOARD_EGL_CFG := device/xiaomi/taurus/configs/egl.cfg
 
+# FM
+COMMON_GLOBAL_CFLAGS += -DQCOM_FM_ENABLED
+QCOM_FM_ENABLED := true
+
 TARGET_QCOM_MEDIA_VARIANT   := caf
 TARGET_QCOM_DISPLAY_VARIANT := caf
 TARGET_QCOM_AUDIO_VARIANT   := caf

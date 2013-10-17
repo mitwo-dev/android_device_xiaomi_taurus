@@ -248,6 +248,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/xiaomi/taurus/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
 
+# fmradio support
+PRODUCT_PACKAGES += \
+    qcom.fmradio \
+    libqcomfm_jni \
+    FM2 \
+    FMRecord
+
+# transmitter isn't supported
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.fm.transmitter=false
+
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     rild.libpath=/system/lib/libril-qc-qmi-1.so
 
