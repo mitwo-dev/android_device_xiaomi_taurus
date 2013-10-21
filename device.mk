@@ -91,7 +91,7 @@ PRODUCT_COPY_FILES += \
 # Prebuilt kl and kcm keymaps
 PRODUCT_COPY_FILES += \
     device/xiaomi/taurus/atmel_mxt_ts.kl:system/usr/keylayout/atmel_mxt_ts.kl \
-    device/xiaomi/taurus/Button_Jack.kl:system/usr/keylayout/Button_Jack.kl \
+    device/xiaomi/taurus/msm8960-snd-card_Button_Jack.kl:system/usr/keylayout/msm8960-snd-card_Button_Jack.kl \
     device/xiaomi/taurus/cyttsp-i2c.kl:system/usr/keylayout/cyttsp-i2c.kl \
     device/xiaomi/taurus/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     device/xiaomi/taurus/keypad_8960.kl:system/usr/keylayout/keypad_8960.kl \
