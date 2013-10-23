@@ -61,7 +61,8 @@ endif
 
 PRODUCT_COPY_FILES += \
     device/xiaomi/taurus/configs/snd_soc_msm_2x:system/etc/snd_soc_msm/snd_soc_msm_2x \
-    device/xiaomi/taurus/configs/audio_policy.conf:system/etc/audio_policy.conf
+    device/xiaomi/taurus/configs/audio_policy.conf:system/etc/audio_policy.conf \
+    device/xiaomi/taurus/configs/audio_effects.conf:system/etc/audio_effects.conf
 
 PRODUCT_COPY_FILES += \
     device/xiaomi/taurus/thermald-taurus.conf:system/etc/thermald.conf
