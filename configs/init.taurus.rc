@@ -479,7 +479,6 @@ service cnd /system/bin/cnd
 service rmt_storage /system/bin/rmt_storage
     class core
     user root
-    disabled
 
 on property:ro.boot.emmc=true
     start rmt_storage
@@ -923,3 +922,4 @@ on property:persist.sys.display_ce=10
 
 on property:persist.sys.display_ce=11
     write /sys/devices/virtual/graphics/fb0/msm_fb_dispparam 16
+
