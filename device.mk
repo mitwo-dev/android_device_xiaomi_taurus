@@ -175,6 +175,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.mod_device=mi2a_ivan
 
 PRODUCT_PACKAGES += \
+    CellBroadcastReceiver
+
+PRODUCT_PACKAGES += \
     librs_jni \
     com.android.future.usb.accessory
 
