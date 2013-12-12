@@ -30,7 +30,6 @@ PRODUCT_MODEL := MI 2A
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
-## VoiceProc modules                                                                                              
 PRODUCT_PACKAGES += wpa_supplicant_overlay.conf
 PRODUCT_PACKAGES += p2p_supplicant_overlay.conf
 PRODUCT_PACKAGES += MiMarket.apk
