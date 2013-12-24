@@ -66,7 +66,8 @@ PRODUCT_COPY_FILES += \
     device/xiaomi/taurus/configs/audio_effects.conf:system/etc/audio_effects.conf
 
 PRODUCT_COPY_FILES += \
-    device/xiaomi/taurus/thermald-taurus.conf:system/etc/thermald.conf
+    device/xiaomi/taurus/thermald_h.conf:system/etc/thermald_h.conf \
+    device/xiaomi/taurus/thermald_l.conf:system/etc/thermald_l.conf
 
 PRODUCT_COPY_FILES += \
     device/xiaomi/taurus/configs/init.taurus.rc:root/init.taurus.rc \
