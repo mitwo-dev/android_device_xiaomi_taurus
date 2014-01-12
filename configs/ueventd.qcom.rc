@@ -139,6 +139,9 @@
 /dev/pn544                0660   nfc        nfc
 
 
+# wlan
+/dev/wcnss_wlan           0660   system     system
+
 /sys/devices/system/cpu/cpufreq ondemand/boostfreq   0664    system  system
 /sys/devices/system/cpu/cpufreq ondemand/boostpulse  0664    system  system
 /sys/devices/system/cpu/cpufreq ondemand/boosttime   0664    system  system
