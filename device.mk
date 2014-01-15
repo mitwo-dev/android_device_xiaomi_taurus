@@ -79,7 +79,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     device/xiaomi/taurus/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    device/xiaomi/taurus/init.qcom.fm.sh:system/etc/init.qcom.fm.sh
+    device/xiaomi/taurus/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
+    device/xiaomi/taurus/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh
 
 PRODUCT_COPY_FILES += \
     device/xiaomi/taurus/bootanimation.zip:system/media/bootanimation.zip
