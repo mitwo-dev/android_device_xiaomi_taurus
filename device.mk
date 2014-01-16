@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
     device/xiaomi/taurus/kernel/exfat.ko:system/lib/modules/exfat.ko \
     device/xiaomi/taurus/kernel/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
     device/xiaomi/taurus/kernel/wlan.ko:system/lib/modules/wlan.ko
+    device/xiaomi/taurus/kernel/adsprpc.ko:system/lib/modules/adsprpc.ko
 endif
 
 PRODUCT_COPY_FILES += \
