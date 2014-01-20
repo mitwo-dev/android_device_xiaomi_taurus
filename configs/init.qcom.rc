@@ -699,8 +699,9 @@ on property:persist.sys.aries.power_profile=high
     stop mpdecision
     write /sys/devices/system/cpu/cpu1/online 1
     write /sys/devices/system/cpu/cpu1/cpufreq/scaling_max_freq 1728000
-    stop thermald
-    start thermald
+    stop thermald_h
+    stop thermald_l
+    start thermald_h
 
 on property:persist.sys.aries.power_profile=middle
     write /sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load 95
@@ -711,8 +712,9 @@ on property:persist.sys.aries.power_profile=middle
     write /sys/class/leds/lcd-backlight/max_brightness 255
     write /sys/devices/platform/kgsl-3d0.0/kgsl/kgsl-3d0/max_gpuclk 400000000
     start mpdecision
-    stop thermald
-    start thermald
+    stop thermald_h
+    stop thermald_l
+    start thermald_l
 
 on property:persist.sys.aries.power_profile=low
 #    write /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay 100000
@@ -724,9 +726,9 @@ on property:persist.sys.aries.power_profile=low
     write /sys/class/leds/lcd-backlight/max_brightness 70
     write /sys/devices/platform/kgsl-3d0.0/kgsl/kgsl-3d0/max_gpuclk 200000000
     start mpdecision
-    stop thermald
-    start thermald
-
+    stop thermald_h
+    stop thermald_l
+    start thermald_l
 
 on property:persist.sys.display_prefer=1
     write /sys/devices/virtual/graphics/fb0/msm_fb_dispparam 1
@@ -742,4 +744,3 @@ on property:persist.sys.display_ce=10
 
 on property:persist.sys.display_ce=11
     write /sys/devices/virtual/graphics/fb0/msm_fb_dispparam 16
-
