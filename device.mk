@@ -65,11 +65,11 @@ PRODUCT_COPY_FILES += \
     device/xiaomi/taurus/thermald_l.conf:system/etc/thermald_l.conf
 
 PRODUCT_COPY_FILES += \
-    device/xiaomi/taurus/configs/init.taurus.rc:root/init.taurus.rc \
-    device/xiaomi/taurus/configs/init.taurus.usb.rc:root/init.taurus.usb.rc \
-    device/xiaomi/taurus/configs/init.recovery.taurus.rc:root/init.recovery.taurus.rc \
-    device/xiaomi/taurus/configs/fstab.taurus:root/fstab.taurus \
-    device/xiaomi/taurus/configs/ueventd.taurus.rc:root/ueventd.taurus.rc \
+    device/xiaomi/taurus/configs/init.qcom.rc:root/init.qcom.rc \
+    device/xiaomi/taurus/configs/init.qcom.usb.rc:root/init.qcom.usb.rc \
+    device/xiaomi/taurus/configs/init.recovery.qcom.rc:root/init.recovery.qcom.rc \
+    device/xiaomi/taurus/configs/fstab.qcom:root/fstab.qcom \
+    device/xiaomi/taurus/configs/ueventd.qcom.rc:root/ueventd.qcom.rc \
     device/xiaomi/taurus/configs/init.qcom.class_core.sh:root/init.qcom.class_core.sh \
     device/xiaomi/taurus/configs/init.qcom.class_main.sh:root/init.qcom.class_main.sh \
     device/xiaomi/taurus/configs/media_profiles.xml:system/etc/media_profiles.xml \
