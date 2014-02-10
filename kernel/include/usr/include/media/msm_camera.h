@@ -1,5 +1,5 @@
-/* Copyright (c) 2009-2013, The Linux Foundation. All rights reserved.
-*
+/* Copyright (c) 2009-2012, Code Aurora Forum. All rights reserved.
+ *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
  * only version 2 as published by the Free Software Foundation.
@@ -23,8 +23,7 @@
 #else
 #include <linux/time.h>
 #endif
-
-#include <linux/msm_ion.h>
+#include <linux/ion.h>
 
 #define BIT(nr)   (1UL << (nr))
 
@@ -1145,7 +1144,6 @@ struct msm_sensor_output_info_t {
 struct sensor_output_info_t {
 	struct msm_sensor_output_info_t *output_info;
 	uint16_t num_info;
-	struct sensor_calib_data wb_calib;
 };
 
 struct mirror_flip {
